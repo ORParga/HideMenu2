@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">HideMenu2</string>
+    <string name="fab_content_desc">Hide and show menu</string>
+</resources>
