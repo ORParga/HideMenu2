@@ -7,7 +7,7 @@ import com.google.android.material.floatingactionbutton.FloatingActionButton;
 public class SharingData {
 
     public static ORIENTATION Orientation;
-    public static boolean FolderContainerIsShowing;
+    public static boolean FolderContainerIsShowing=false;
     public static WorkAreaLayout ViewWorkArea;
 
     FloatingActionButton floatingActionButton;

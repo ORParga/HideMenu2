@@ -13,6 +13,11 @@
         android:layout_height="match_parent"
         android:background="@color/cyan">
 
+        <com.example.hidemenu2.WorkAreaLayout
+            android:id="@+id/WorkAreaID"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:background="#00ff00"/>
         <com.example.hidemenu2.MenuLayout
             android:id="@+id/MenuLayout1"
             android:layout_width="wrap_content"
@@ -25,11 +30,6 @@
             android:layout_margin="16dp"
             android:contentDescription="@string/fab_content_desc"
             app:srcCompat="@drawable/arrowdown32x32"/>
-        <com.example.hidemenu2.WorkAreaLayout
-            android:id="@+id/WorkAreaID"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:background="#ffff00"/>
 
     </RelativeLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
